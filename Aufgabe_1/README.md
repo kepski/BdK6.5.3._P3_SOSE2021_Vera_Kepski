@@ -5,7 +5,14 @@ Ihre Antwort: Ich habe diesen Editor gewähnt, weil ich dann nicht zusätzlich i
 ## 2. Eine Python-Bibliothek 
 Ihre Antwort
 ## 3. Eine Fehlermeldung und Ihre Lösung
-Ihre Antwort
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-1-d6753a8bacde> in <module>
+----> 1 data_id1["result"]["27708327"]["title"]
+
+NameError: name 'data_id1' is not defined
+
+Lösung: Nachdem Kim mir im Issue gesagt hat wie ich die einzelnen Titel und Publikationszeiten extrahieren kann, habe ich versucht es eins zu eins zu übernehmen. Jedoch musste ich noch einmal alle Zellen durchlaufen lassen, damit die Zuweisungen der einzelnen data_ids wieder greifbar sind.
 ## 4. Was ist JupyterLab?
 Es ist eine webbasierte Arbeitsumgebung für Jupyter-Projekte. Eine bedienerfreundliche Oberfläche erlaubt die zeitgleiche Nutzung unterschiedlicher Tools und unterstüzt verschiedene Dateiformate. Es ist außerdem an die heutigen Standards und Bedürfnisse angepasst, eine Überarbeitung des "klassischen Jupyter Notebooks" von 2011.
 ## 5. Was ist der große Unterschied zwischen den Webframeworks flask und Django
